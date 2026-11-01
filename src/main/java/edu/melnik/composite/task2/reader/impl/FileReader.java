@@ -23,8 +23,8 @@ public class FileReader implements DataReader {
             throw new UserExceptionComposite("File name cannot be null");
         }
         try {
+
             Path path = Path.of(filePath);
-           // List<String> lines = Files.readAllLines(path, StandardCharsets.UTF_8);
 
             return Files.readString(path);
         } catch (IOException e) {

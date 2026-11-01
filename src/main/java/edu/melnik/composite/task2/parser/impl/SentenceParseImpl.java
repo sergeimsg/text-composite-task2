@@ -4,7 +4,6 @@ import edu.melnik.composite.task2.entity.TextComponentInterface;
 import edu.melnik.composite.task2.entity.TextComponentType;
 import edu.melnik.composite.task2.entity.impl.TextComposite;
 import edu.melnik.composite.task2.parser.AbstractTextParser;
-import edu.melnik.composite.task2.parser.TextParser;
 import edu.melnik.composite.task2.util.RegexSplit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
