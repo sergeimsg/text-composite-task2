@@ -1,4 +1,4 @@
-package edu.melnik.composite.task2.composite;
+package edu.melnik.composite.task2.entity;
 
 public enum TextComponentType {
     TEXT,
